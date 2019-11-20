@@ -1,7 +1,7 @@
 import requests, json 
 import googlemaps 
 
-api_key = # get an API key through google
+api_key = 'ppAIzaSyCcaDoTeMKK7wxl1bF8mr-EvbSFSXReO6E'
 source = input() 
 dest = input() 
 url ='https://maps.googleapis.com/maps/api/distancematrix/json?'
