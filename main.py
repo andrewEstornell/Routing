@@ -1,6 +1,16 @@
+import requests, json 
+import googlemaps 
 
+api_key = # get an API key through google
+source = input() 
+dest = input() 
+url ='https://maps.googleapis.com/maps/api/distancematrix/json?'
 
-s = "Hello World"
-for i in range(10):
-    print(s)
+r = requests.get(url + 'origins = ' + source + '&destinations = ' + dest + '&key = ' + api_key) 
+                     
+
+x = r.json() 
+  
+print(x) 
+
     
